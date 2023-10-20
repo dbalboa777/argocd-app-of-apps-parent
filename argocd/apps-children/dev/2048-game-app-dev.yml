@@ -14,3 +14,5 @@ spec:
     path: kustomized_helm/overlays/dev
     repoURL: https://github.com/dbalboa777/argocd-app-of-apps-child-2048-game
     targetRevision: HEAD
+    plugin:
+      name: kustomized-helm
